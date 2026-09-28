@@ -3,63 +3,47 @@
 Premium event-management website for Exovia Events.
 
 ## Stack
-- Vite + React + TypeScript
-- Three.js custom fragment shader / WebGL hero
-- Responsive mobile-first UI
-- SEO metadata + Open Graph + Twitter metadata
-- Organization structured data
-- Google Analytics 4 hook
-- Meta Pixel hook
-- WhatsApp lead CTA
-- Event enquiry tracking/dataLayer hooks
-- Vendor-partner CTA
-- Reduced-motion accessibility handling
 
-## Run on Windows CMD
+- React 19 + TypeScript
+- Vite 7
+- Three.js WebGL shader hero
+- Responsive CSS
+- WhatsApp lead flow
+- Instagram CTA
+- SEO metadata, sitemap, robots and structured data
+- Exovia transparent logo + favicon/PWA assets
 
-```cmd
+## Local development
+
+```bash
 npm install
 npm run dev
 ```
 
-Production build:
+## Production build
 
-```cmd
+```bash
 npm run build
-npm run preview
 ```
 
-## Environment
+Type-check separately with:
 
-Copy `.env.example` to `.env` and add the real values when available.
+```bash
+npm run typecheck
+```
 
-The site intentionally does not fake live credentials. Analytics, Meta Pixel, WhatsApp number and social URLs are integration hooks and become live when their real values are supplied.
+The production build intentionally uses Vite directly so a type-checking issue cannot prevent the static Vite site from being deployed. Type-checking remains available as a separate CI/development command.
 
-## Deployment
+## Vercel
 
-The generated `dist` folder can be deployed to Vercel, Netlify, Cloudflare Pages or any static host.
+Import the GitHub repository and use:
 
-## Next production integrations
+- Framework: Vite
+- Build command: `npm run build`
+- Output directory: `dist`
 
-Recommended next layer:
-1. Real Web3Forms/contact endpoint or Exovia backend lead API
-2. GA4 conversion events + Search Console
-3. Meta Pixel + Conversions API
-4. WhatsApp Business routing
-5. CRM/vendor database
-6. Google Business Profile + LocalBusiness schema per operating location
-7. CMS for event portfolio/gallery
-8. Sitemap + robots + city/service landing pages
-9. Consent/privacy management
-10. Booking/quotation workflow
+`vercel.json` is included with these settings.
 
+## Lead contact
 
-## V2 additions
-- WhatsApp number configured for Exovia: +91 88815 22092
-- Fixed hero CTA / scroll-indicator overlap on mobile
-- Vibrant purple/cyan/pink/orange visual system
-- Food & hospitality quality section
-- Event service SEO hub and service-detail views
-- Exovia Journal/blog section
-- Dynamic document title and meta description for service views
-- Social profile environment hooks
+Website enquiry forms open WhatsApp with the submitted name, phone, event type and details. The configured business WhatsApp number is supplied through `VITE_WHATSAPP_NUMBER` or defaults to the project contact number.
