@@ -1,0 +1,31 @@
+# Exovia Events
+
+> Exovia Events is an event management and event production brand operating across India. Tagline: We Create The Moment.
+
+## What Exovia Events does
+- Wedding event management
+- Engagements and receptions
+- Birthday and private party planning
+- Corporate events and brand experiences
+- Exhibitions and pop-up events
+- Food and flea market events
+- Festivals and large event production
+- Food, hospitality and vendor coordination
+
+## Contact
+- Website: https://exoviaevents.com/
+- WhatsApp: https://wa.me/918881522092
+- Phone: +91 8881522092
+- Instagram: https://www.instagram.com/exoviaevents/
+
+## Search-friendly service pages
+- https://exoviaevents.com/services/wedding-event-management/
+- https://exoviaevents.com/services/corporate-event-management/
+- https://exoviaevents.com/services/food-flea-market-events/
+- https://exoviaevents.com/services/exhibition-pop-up-events/
+- https://exoviaevents.com/services/private-party-event-management/
+- https://exoviaevents.com/services/festival-large-event-production/
+- https://exoviaevents.com/events/
+
+## Important
+Only published events should be represented with Event structured data. Exovia should not claim an event is happening unless its date, location and other event details are actually published.
